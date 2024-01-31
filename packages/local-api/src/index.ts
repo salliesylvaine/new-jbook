@@ -30,7 +30,9 @@ export const serve = (
   } else {
     //! This one is intended for when a user has installed our CLI on their local machine
     //* this will find the local-client build directory in node_modules folder
-    const packagePath = require.resolve('local-client/build/index.html');
+    const packagePath = require.resolve(
+      '@jsnotebook-377/local-client/build/index.html'
+    );
     app.use(express.static(path.dirname(packagePath)));
   }
 

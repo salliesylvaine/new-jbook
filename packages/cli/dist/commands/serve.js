@@ -17,7 +17,7 @@ exports.serveCommand = void 0;
 //* help us calculate different paths on a file system
 const path_1 = __importDefault(require("path"));
 const commander_1 = require("commander");
-const local_api_1 = require("local-api");
+const local_api_1 = require("@jsnotebook-377/local-api");
 //* if isProduction is true, it means we're probs running on the user's machine
 const isProduction = process.env.NODE_ENV === 'production';
 //* before we take this code and deploy to npm, we're going to run this script.

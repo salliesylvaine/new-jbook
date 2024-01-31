@@ -2,7 +2,7 @@
 //* help us calculate different paths on a file system
 import path from 'path';
 import { Command } from 'commander';
-import { serve } from 'local-api';
+import { serve } from '@jsnotebook-377/local-api';
 
 interface LocalApiError {
   code: string;

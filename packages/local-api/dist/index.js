@@ -26,7 +26,7 @@ const serve = (port, filename, dir, useProxy) => {
     else {
         //! This one is intended for when a user has installed our CLI on their local machine
         //* this will find the local-client build directory in node_modules folder
-        const packagePath = require.resolve('local-client/build/index.html');
+        const packagePath = require.resolve('@jsnotebook-377/local-client/build/index.html');
         app.use(express_1.default.static(path_1.default.dirname(packagePath)));
     }
     //* we're taking the entire process of starting up an express server and
