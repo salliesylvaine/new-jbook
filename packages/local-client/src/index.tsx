@@ -53,17 +53,28 @@ const App = () => {
               the Code Editor.{' '}
             </li>{' '}
             <li>
-              {' '}
-              The code in each code editor is joined together in a single file.
+              You can reference any code you've written in any code editor
+              window. This saves you the hassle of having to re-write the same
+              code in multiple code editors.{' '}
             </li>{' '}
             <li>
-              You can reference any code you've written in any code cell.{' '}
+              {' '}
+              Everything you write in both the code editors and text editors are
+              saved to a JavaScript file that is automatically created inside
+              your project directory on your local computer.
             </li>{' '}
           </ul>
           <p>
-            Your changes get saved to the file you opened JS Notebook with.
-            Happy coding!{' '}
+            Any other questions you have can be answered in the README at{' '}
+            <a
+              href="https://www.npmjs.com/package/jsnotebook-377"
+              style={{ textDecoration: 'underline' }}
+            >
+              JSNotebook-377
+            </a>
+            .
           </p>
+          <p>Happy coding! </p>
         </section>
         <CellList />
       </div>
