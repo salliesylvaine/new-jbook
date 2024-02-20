@@ -1,6 +1,6 @@
 {
   "name": "@jsnotebook-377/local-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "files": [
     "dist"
@@ -23,7 +23,7 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "@jsnotebook-377/local-client": "^1.0.1",
+    "@jsnotebook-377/local-client": "^1.0.2",
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "http-proxy-middleware": "^2.0.6"
