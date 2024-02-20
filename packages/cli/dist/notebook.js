@@ -1,0 +1,1 @@
+[{"content":"","type":"text","id":"kee5u"},{"content":"const App = () => {\n  return <h1>Hi there</h1>;\n};\n\nshow(<App />);","type":"code","id":"wio9h"}]
