@@ -14,12 +14,44 @@ const App = () => {
     <Provider store={store}>
       <div className="content">
         <section className="section">
-          <h1>JS Notebook</h1>
-          <h3>A simple interactive coding environment.</h3>
-          <p>How to use:</p>
+          <h1>Welcome to JS Notebook-377!</h1>
+          <h4>
+            An interactive development environment for writing and documenting
+            JavaScript code.
+          </h4>
+          <br />
+          <h3 style={{ fontWeight: 'bold' }}>Getting Started:</h3>
+          <h4 style={{ fontWeight: 'bold' }}>
+            ** For the most comprehensive documentation and usage instructions,
+            please refer to the README at{' '}
+            <a
+              href="https://www.npmjs.com/package/jsnotebook-377"
+              style={{ textDecoration: 'underline' }}
+            >
+              JSNotebook-377
+            </a>{' '}
+            **
+          </h4>
 
           <ul>
-            <li>Click the Code or Text button to add and edit cells.</li>
+            <li>
+              Click the Code button to open a Code Editor. Click the Text button
+              to open a Text Editor.
+            </li>
+            <li>
+              You can re-order or delete editors using the buttons at the top
+              right of each editor window.
+            </li>{' '}
+            <li>
+              {' '}
+              You can add new editors by hovering on the divider between
+              editors.
+            </li>
+            <li>
+              Call the "show()" function, passing in your desired code as an
+              argument, to view said code in the preview window on the right of
+              the Code Editor.{' '}
+            </li>{' '}
             <li>
               {' '}
               The code in each code editor is joined together in a single file.
@@ -27,17 +59,6 @@ const App = () => {
             <li>
               You can reference any code you've written in any code cell.{' '}
             </li>{' '}
-            <li>
-              Call the "show()" function to run your code in the preview box.{' '}
-            </li>{' '}
-            <li>
-              You can re-order or delete cells using the buttons at the top
-              right of each cell.
-            </li>{' '}
-            <li>
-              {' '}
-              You can add new cells by hovering on the divider between cells.
-            </li>
           </ul>
           <p>
             Your changes get saved to the file you opened JS Notebook with.
