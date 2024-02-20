@@ -122,7 +122,6 @@ export const saveCells = () => {
 
     try {
       await axios.post('./cells', { cells });
-      console.log(cells);
     } catch (err) {
       if (err instanceof Error) {
         dispatch({

@@ -44,7 +44,6 @@ This is used for writing out documentation.\
 
 This is used for writing code in JavaScript and fully functional React components with JSX.\
 When you open a Code Editor, you will see two windows. The left window is where you can write code, and the right window is the preview window. The code is automatically compiled as you write.
-
 **Note: You might see errors in the preview window while you're coding. Since it's compiling in real time, it is advisable to finish writing out your code before taking heed of any errors you may see.**
 
 #### `Format` button
@@ -72,6 +71,8 @@ return <p>This is an example</p>
 };
 show(<App/>); ---> This is an example
 
+#### `imports`
+
 React and ReactDOM are built into the Code Editor and are immediately available to use without needing to import them.
 **Note: While importing React / ReactDOM isn't necessary to use the Code Editor, if you want to include their respective import statements in your code, this will NOT affect the Code Editor, so feel free to do what works best for you.**
 
@@ -81,3 +82,9 @@ You can import just about any module directly from [npm] that you want in your c
 import axios from 'axios';
 
 Lastly, the Code Editors are interconnected. If you write a variable or function in one code editor, it will be accessible in every other code editor you have open, regardless of the order of the code editors on the page. This is to prevent having to rewrite the same code in different code editor windows. Please keep this in mind when deciding on naming conventions for your code.
+
+#### `console.log()`
+
+Console logs are visible in the browser console. They will NOT appear in the preview window.\
+To view your console logs, right click in the browser window and navigate to `inspect`. This will open the browser console and allow you to view your console logs in real time.
+**Note: The output of the console logs will not be saved in your `notebook.js` file on your local machine. The call of the console logs [console.log()] will be saved in `notebook.js` with the rest of your code.**
