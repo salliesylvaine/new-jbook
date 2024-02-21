@@ -1,6 +1,6 @@
 {
   "name": "jsnotebook-377",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "bin": "dist/index.js",
   "publishConfig": {
@@ -17,10 +17,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@jsnotebook-377/local-client": "^1.0.2"
+    "@jsnotebook-377/local-client": "^1.0.3"
   },
   "devDependencies": {
-    "@jsnotebook-377/local-api": "^1.0.2",
+    "@jsnotebook-377/local-api": "^1.0.3",
     "@types/node": "^20.11.5",
     "commander": "^11.1.0",
     "esbuild": "0.8.26",
