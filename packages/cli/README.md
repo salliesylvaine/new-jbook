@@ -21,9 +21,7 @@ This will also create a js file project directory called `notebook.js` where any
 
 ### `jsnotebook-377 serve <filename> --port <number>`
 
-This will run the app with a custom filename of your choosing and a custom port number of your choosing.\
-Open [http://localhost:<number>](http://localhost:<number>) to view it in your browser.
-
+This will run the app with a custom filename and/or custom port number of your choosing.\
 Both the filename and port numbers are optional, so if you leave either blank, the app will run with the default filename of `notebook.js` and the default port number of `4005`.
 
 ## How to use JSNotebook-377
