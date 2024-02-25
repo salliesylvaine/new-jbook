@@ -55,8 +55,8 @@ The Code Editor comes with a built-in `show()` function. To be able to see compi
 
 [EX:]
 
-```show(123); ---> 123
-
+```
+show(123); ---> 123
 ```
 
 ```
@@ -64,15 +64,16 @@ const message = 'Hello world';
 show(message) ---> Hello world
 ```
 
-```show([1,2,3]); ---> 1,2,3
-
+```
+show([1,2,3]); ---> 1,2,3
 ```
 
 To show a React component, you _MUST_ pass it into the `show()` function using JSX syntax.
 
 [EX:]
 
-```const App = () => {
+```
+const App = () => {
 return (<p>Hello World</p>)
 };
 
