@@ -88,7 +88,10 @@ React and ReactDOM are built into the Code Editor and are immediately available 
 You can import just about any module directly from [npm] that you want in your code. There is no need to install them locally. Simply write the import statement for the desired npm package in the Code Editor window, and it will be available for use immediately. This includes css files / packages from [npm] as well.
 
 [EX:]
+
+```
 import axios from 'axios';
+```
 
 Lastly, the Code Editors are interconnected. If you write a variable or function in one code editor, it will be accessible in every other code editor you have open, regardless of the order of the code editors on the page. This is to prevent having to rewrite the same code in different code editor windows. Please keep this in mind when deciding on naming conventions for your code.
 
