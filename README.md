@@ -54,20 +54,30 @@ This is used to specify exactly what values you want to display in the preview w
 The Code Editor comes with a built-in `show()` function. To be able to see compiled code in the preview window, you _MUST_ call the `show()` function, passing in whatever code you wish to see as an argument.
 
 [EX:]
-show(123); ---> 123
 
+```show(123); ---> 123
+
+```
+
+```
 const message = 'Hello world';
 show(message) ---> Hello world
+```
 
-show([1,2,3]); ---> 1,2,3
+```show([1,2,3]); ---> 1,2,3
+
+```
 
 To show a React component, you _MUST_ pass it into the `show()` function using JSX syntax.
 
 [EX:]
-const App = () => {
-return <p>This is an example</p>
+
+```const App = () => {
+return (<p>Hello World</p>)
 };
-show(<App/>); ---> This is an example
+
+show(<App/>); ---> Hello World
+```
 
 #### `imports`
 
