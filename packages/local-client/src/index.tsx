@@ -30,7 +30,7 @@ const App = () => {
             >
               JSNotebook-377
             </a>
-            **
+            . **
           </h4>
 
           <ul>
@@ -50,6 +50,20 @@ const App = () => {
               Call the "show()" function, passing in your desired code as an
               argument, to view said code in the preview window on the right of
               the Code Editor.
+              <br />
+              <br />
+              EXAMPLE:
+              <p>
+                const App = &#10088; &#10089; =&gt; &#10100; return &#10088;
+                &lt; p &gt; Hello World &lt; / p &gt; &#10089; &#10101; ;
+                <br />
+                show(&lt;App/&gt;); &rarr; Hello World
+              </p>
+            </li>
+            <br />
+            <li>
+              Console logs will show in the browser console. Right-click and
+              click inspect to pull up the browser console.
             </li>
             <li>
               You can reference any code you've written in any code editor

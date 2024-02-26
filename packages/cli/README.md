@@ -61,7 +61,7 @@ show(123); ---> 123
 
 ```
 const message = 'Hello world';
-show(message) ---> Hello world
+show(message); ---> Hello world
 ```
 
 ```
