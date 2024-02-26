@@ -4,12 +4,12 @@
 
 To install and use in your desired directory, you can run:
 
-### `npx jsnotebook-377`
+### `npm i jsnotebook-377`
 
 Installs the module into your project.\
-**NOTE: `npm install jsnotebook-377` will not work, you must use npx.**
+**Note: You must create a script for utilizing the command options.**
 
-Once the install is complete, you will see available commands in the terminal for customizing and running the app.
+Once the install is complete, you will see available commands in the terminal for customizing your start script and running the app.
 
 ### `jsnotebook-377 serve`
 
