@@ -23,13 +23,13 @@ const App = () => {
           <h3 style={{ fontWeight: 'bold' }}>Getting Started:</h3>
           <h4 style={{ fontWeight: 'bold' }}>
             ** For the most comprehensive documentation and usage instructions,
-            please refer to the README at{' '}
+            please refer to the README at
             <a
               href="https://www.npmjs.com/package/jsnotebook-377"
               style={{ textDecoration: 'underline' }}
             >
               JSNotebook-377
-            </a>{' '}
+            </a>
             **
           </h4>
 
@@ -41,31 +41,29 @@ const App = () => {
             <li>
               You can re-order or delete editors using the buttons at the top
               right of each editor window.
-            </li>{' '}
+            </li>
             <li>
-              {' '}
               You can add new editors by hovering on the divider between
               editors.
             </li>
             <li>
               Call the "show()" function, passing in your desired code as an
               argument, to view said code in the preview window on the right of
-              the Code Editor.{' '}
-            </li>{' '}
+              the Code Editor.
+            </li>
             <li>
               You can reference any code you've written in any code editor
               window. This saves you the hassle of having to re-write the same
-              code in multiple code editors.{' '}
-            </li>{' '}
+              code in multiple code editors.
+            </li>
             <li>
-              {' '}
               Everything you write in both the code editors and text editors are
               saved to a JavaScript file that is automatically created inside
               your project directory on your local computer.
-            </li>{' '}
+            </li>
           </ul>
           <p>
-            Any other questions you have can be answered in the README at{' '}
+            Any other questions you have can be answered in the README at
             <a
               href="https://www.npmjs.com/package/jsnotebook-377"
               style={{ textDecoration: 'underline' }}

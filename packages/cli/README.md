@@ -100,7 +100,3 @@ Lastly, the Code Editors are interconnected. If you write a variable or function
 Console logs are visible in the browser console. They will NOT appear in the preview window.\
 To view your console logs, right click in the browser window and navigate to `inspect`. This will open the browser console and allow you to view your console logs in real time.
 **Note: The output of the console logs will not be saved in your `notebook.js` file on your local machine. The call of the console logs [console.log()] will be saved in `notebook.js` with the rest of your code.**
-
-```
-
-```
